@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPrediction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myPrediction",
+						"type": "uint256"
+					}
+				],
+				"name": "storeValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleContract.sol": "SimpleContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleContract.sol": {
+			"keccak256": "0xe8e4501797890758f3c00335dda6e54ec41b524a48311038cf596deed2c95562",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://556f7240f57d50d0029c0a05ea95f3980e8da6033bbe3eae07e8cdc147c8a5b3",
+				"dweb:/ipfs/QmPVWSBvn8ri2vGqK3ScdxyVedqjt5Czs1KFVKPpDWeB41"
+			]
+		}
+	},
+	"version": 1
+}
